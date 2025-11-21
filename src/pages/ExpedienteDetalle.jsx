@@ -155,7 +155,7 @@ const ExpedienteDetalle = () => {
 
   return (
     <div>
-      {/* Header */}
+      {}
       <div className="mb-6">
         <Button
           icon={ArrowLeft}
@@ -182,7 +182,7 @@ const ExpedienteDetalle = () => {
         </div>
       </div>
 
-      {/* Información del expediente */}
+      {}
       <Card title="Información General" className="mb-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
@@ -271,7 +271,7 @@ const ExpedienteDetalle = () => {
             </p>
           </div>
 
-          {/* Justificación de rechazo */}
+          {}
           {expediente.id_estado === ESTADOS.RECHAZADO &&
             expediente.justificacion_rechazo && (
               <div className="md:col-span-2">
@@ -291,7 +291,7 @@ const ExpedienteDetalle = () => {
               </div>
             )}
         </div>
-        {/* Botones de acción */}
+        {}
         <div className="flex flex-wrap gap-3 mt-6 pt-6 border-t">
           {puedeEnviarRevision && (
             <Button
@@ -338,7 +338,7 @@ const ExpedienteDetalle = () => {
           )}
       </Card>
 
-      {/* Indicios */}
+      {}
       <Card
         title="Indicios Registrados"
         subtitle={`${indicios.length} indicio${

@@ -102,10 +102,10 @@ function AppContent() {
             }
         />
 
-        {/* Redirigir / al dashboard */}
+        {}
         <Route path="/" element={<Navigate to="/dashboard" replace />} />
 
-        {/* Ruta 404 */}
+        {}
         <Route path="*" element={<Navigate to="/dashboard" replace />} />
       </Routes>
     </>

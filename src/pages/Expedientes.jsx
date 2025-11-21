@@ -123,7 +123,7 @@ const Expedientes = () => {
             {/* Filtros */}
             <Card title="Filtros de Búsqueda" className="mb-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                    {/* Búsqueda general */}
+                    {}
                     <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
                             Buscar
@@ -143,7 +143,7 @@ const Expedientes = () => {
                         </div>
                     </div>
 
-                    {/* Estado */}
+                    {}
                     <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
                             Estado
@@ -163,7 +163,7 @@ const Expedientes = () => {
                         </select>
                     </div>
 
-                    {/* Fecha inicio */}
+                    {}
                     <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
                             Fecha Inicio
@@ -177,7 +177,7 @@ const Expedientes = () => {
                         />
                     </div>
 
-                    {/* Fecha fin */}
+                    {}
                     <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
                             Fecha Fin
@@ -192,7 +192,7 @@ const Expedientes = () => {
                     </div>
                 </div>
 
-                {/* Botones de filtro */}
+                {}
                 <div className="flex gap-2 mt-4">
                     <Button
                         icon={Filter}
@@ -210,7 +210,7 @@ const Expedientes = () => {
                 </div>
             </Card>
 
-            {/* Lista de expedientes */}
+            {}
             <Card>
                 {expedientesFiltrados.length === 0 ? (
                     <div className="text-center py-12">
@@ -329,7 +329,7 @@ const Expedientes = () => {
                     </div>
                 )}
 
-                {/* Contador de resultados */}
+                {}
                 {expedientesFiltrados.length > 0 && (
                     <div className="mt-4 text-sm text-gray-500 text-center">
                         Mostrando {expedientesFiltrados.length} de {expedientes.length} expedientes

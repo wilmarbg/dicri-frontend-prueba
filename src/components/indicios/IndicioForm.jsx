@@ -82,7 +82,7 @@ const IndicioForm = ({ idExpediente, onSuccess, onCancel }) => {
     setLoading(true);
 
     try {
-      // Limpiar campos vacíos opcionales
+      // Limpiar campos vacíos
       const dataToSend = {
         ...formData,
         peso: formData.peso ? parseFloat(formData.peso) : null,
@@ -107,7 +107,7 @@ const IndicioForm = ({ idExpediente, onSuccess, onCancel }) => {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
-      {/* Código del indicio */}
+      {}
       <Input
         label="Código del Indicio"
         type="text"
@@ -120,7 +120,7 @@ const IndicioForm = ({ idExpediente, onSuccess, onCancel }) => {
         disabled={loading}
       />
 
-      {/* Tipo de indicio */}
+      {}
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-2">
           Tipo de Indicio <span className="text-red-500">*</span>
@@ -147,7 +147,7 @@ const IndicioForm = ({ idExpediente, onSuccess, onCancel }) => {
         )}
       </div>
 
-      {/* Descripción */}
+      {}
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-2">
           Descripción <span className="text-red-500">*</span>
@@ -169,9 +169,9 @@ const IndicioForm = ({ idExpediente, onSuccess, onCancel }) => {
         )}
       </div>
 
-      {/* Grid para campos opcionales */}
+      {}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {/* Color */}
+        {}
         <Input
           label="Color"
           type="text"
@@ -182,7 +182,7 @@ const IndicioForm = ({ idExpediente, onSuccess, onCancel }) => {
           disabled={loading}
         />
 
-        {/* Tamaño */}
+        {}
         <Input
           label="Tamaño"
           type="text"
@@ -193,7 +193,7 @@ const IndicioForm = ({ idExpediente, onSuccess, onCancel }) => {
           disabled={loading}
         />
 
-        {/* Peso */}
+        {}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
             Peso
@@ -224,7 +224,7 @@ const IndicioForm = ({ idExpediente, onSuccess, onCancel }) => {
           </div>
         </div>
 
-        {/* Ubicación del hallazgo */}
+        {}
         <Input
           label="Ubicación del Hallazgo"
           type="text"
@@ -236,7 +236,7 @@ const IndicioForm = ({ idExpediente, onSuccess, onCancel }) => {
         />
       </div>
 
-      {/* Observaciones */}
+      {}
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-2">
           Observaciones
@@ -252,7 +252,7 @@ const IndicioForm = ({ idExpediente, onSuccess, onCancel }) => {
         />
       </div>
 
-      {/* Botones */}
+      {}
       <div className="flex gap-3 pt-4">
         <Button
           type="submit"

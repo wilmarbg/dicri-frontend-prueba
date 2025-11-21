@@ -10,7 +10,7 @@ const Navbar = ({ onMenuClick }) => {
         <nav className="bg-white shadow-md sticky top-0 z-40">
             <div className="mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
-                    {/* Logo y menú móvil */}
+                    {}
                     <div className="flex items-center">
                         <button
                             onClick={onMenuClick}
@@ -37,7 +37,7 @@ const Navbar = ({ onMenuClick }) => {
                         </div>
                     </div>
 
-                    {/* Información del usuario */}
+                    {}
                     <div className="flex items-center">
                         <div className="relative">
                             <button
@@ -57,7 +57,7 @@ const Navbar = ({ onMenuClick }) => {
                                 </div>
                             </button>
 
-                            {/* Dropdown menu */}
+                            {}
                             {showUserMenu && (
                                 <>
                                     <div 

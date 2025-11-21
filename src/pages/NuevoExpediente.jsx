@@ -85,7 +85,7 @@ const NuevoExpediente = () => {
 
     return (
         <div>
-            {/* Header */}
+            {}
             <div className="mb-6">
                 <Button
                     icon={ArrowLeft}
@@ -103,11 +103,11 @@ const NuevoExpediente = () => {
                 </p>
             </div>
 
-            {/* Formulario */}
+            {}
             <form onSubmit={handleSubmit}>
                 <Card>
                     <div className="space-y-6">
-                        {/* Información del técnico */}
+                        {}
                         <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
                             <h3 className="text-sm font-semibold text-blue-900 mb-2">
                                 Técnico Registrador
@@ -120,7 +120,7 @@ const NuevoExpediente = () => {
                             </p>
                         </div>
 
-                        {/* Número de expediente */}
+                        {}
                         <Input
                             label="Número de Expediente"
                             type="text"
@@ -133,7 +133,7 @@ const NuevoExpediente = () => {
                             disabled={loading}
                         />
 
-                        {/* Título */}
+                        {}
                         <Input
                             label="Título del Expediente"
                             type="text"
@@ -146,7 +146,7 @@ const NuevoExpediente = () => {
                             disabled={loading}
                         />
 
-                        {/* Descripción */}
+                        {}
                         <div>
                             <label className="block text-sm font-medium text-gray-700 mb-2">
                                 Descripción
@@ -162,7 +162,7 @@ const NuevoExpediente = () => {
                             />
                         </div>
 
-                        {/* Nota informativa */}
+                        {}
                         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
                             <p className="text-sm text-yellow-800">
                                 <strong>Nota:</strong> Después de crear el expediente, podrás agregar los indicios correspondientes en la página de detalle.
@@ -170,7 +170,7 @@ const NuevoExpediente = () => {
                         </div>
                     </div>
 
-                    {/* Botones de acción */}
+                    {}
                     <div className="flex gap-3 mt-8 pt-6 border-t">
                         <Button
                             type="submit"

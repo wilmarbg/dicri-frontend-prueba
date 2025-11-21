@@ -93,7 +93,7 @@ const Dashboard = () => {
 
     return (
         <div>
-            {/* Header */}
+            {}
             <div className="mb-8">
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">
                     Bienvenido, {user?.nombre_completo}
@@ -103,7 +103,7 @@ const Dashboard = () => {
                 </p>
             </div>
 
-            {/* Botón de acción rápida */}
+            {}
             {isTecnico && (
                 <div className="mb-6">
                     <Button
@@ -116,7 +116,7 @@ const Dashboard = () => {
                 </div>
             )}
 
-            {/* Estadísticas */}
+            {}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
                 {stats.map((stat, index) => (
                     <Card key={index}>
@@ -144,7 +144,7 @@ const Dashboard = () => {
                 ))}
             </div>
 
-            {/* Expedientes recientes */}
+            {}
             <Card 
                 title="Expedientes Recientes" 
                 subtitle="Los últimos expedientes registrados en el sistema"

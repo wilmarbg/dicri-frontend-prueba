@@ -159,7 +159,7 @@ const Login = () => {
           </div>
         </div>
 
-        {/* Footer */}
+        {}
         <div className="text-center mt-6 text-primary-100 text-sm">
           <p>Ministerio Público de Guatemala</p>
           <p className="mt-1">© 2024 - Todos los derechos reservados</p>

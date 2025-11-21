@@ -37,7 +37,7 @@ const Sidebar = ({ isOpen, onClose }) => {
 
     return (
         <>
-            {/* Overlay para móvil */}
+            {}
             {isOpen && (
                 <div 
                     className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
@@ -45,13 +45,13 @@ const Sidebar = ({ isOpen, onClose }) => {
                 />
             )}
 
-            {/* Sidebar */}
+            {}
             <aside className={`
                 fixed lg:static inset-y-0 left-0 z-50
                 w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out
                 ${isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
             `}>
-                {/* Header del sidebar (solo móvil) */}
+                {}
                 <div className="lg:hidden flex items-center justify-between p-4 border-b">
                     <span className="text-lg font-bold text-gray-900">Menú</span>
                     <button
@@ -62,7 +62,7 @@ const Sidebar = ({ isOpen, onClose }) => {
                     </button>
                 </div>
 
-                {/* Navegación */}
+                {}
                 <nav className="p-4 space-y-2">
                     {filteredMenuItems.map((item) => (
                         <NavLink
@@ -83,7 +83,7 @@ const Sidebar = ({ isOpen, onClose }) => {
                     ))}
                 </nav>
 
-                {/* Información adicional */}
+                {}
                 <div className="absolute bottom-0 left-0 right-0 p-4 border-t">
                     <div className="text-xs text-gray-500">
                         <p className="font-semibold text-gray-700">Sistema DICRI</p>

@@ -14,7 +14,7 @@ import Button from "../common/Button";
 const IndicioCard = ({ indicio, onDelete }) => {
   return (
     <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
-      {/* Header */}
+      {}
       <div className="flex justify-between items-start mb-3">
         <div>
           <h4 className="font-semibold text-gray-900 mb-1">
@@ -36,14 +36,14 @@ const IndicioCard = ({ indicio, onDelete }) => {
         )}
       </div>
 
-      {/* Descripción */}
+      {}
       <div className="mb-3">
         <p className="text-sm text-gray-700 line-clamp-3">
           {indicio.descripcion}
         </p>
       </div>
 
-      {/* Detalles */}
+      {}
       <div className="space-y-2 mb-3">
         {indicio.color && (
           <div className="flex items-center gap-2 text-sm text-gray-600">
@@ -90,7 +90,7 @@ const IndicioCard = ({ indicio, onDelete }) => {
         )}
       </div>
 
-      {/* Footer */}
+      {}
       <div className="pt-3 border-t border-gray-200">
         <div className="flex items-center justify-between text-xs text-gray-500">
           <div className="flex items-center gap-1">

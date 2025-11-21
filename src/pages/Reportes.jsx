@@ -188,7 +188,7 @@ const Reportes = () => {
 
   return (
     <div>
-      {/* Header */}
+      {}
       <div className="mb-6">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">
           Reportes y Estadísticas
@@ -198,7 +198,7 @@ const Reportes = () => {
         </p>
       </div>
 
-      {/* Estadísticas generales */}
+      {}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
         <Card>
           <div className="flex items-center justify-between">
@@ -265,7 +265,7 @@ const Reportes = () => {
         </Card>
       </div>
 
-      {/* Gráfico de distribución */}
+      {}
       <Card title="Distribución de Expedientes por Estado" className="mb-8">
         <div className="space-y-4">
           {porcentajes.map((item, index) => (
@@ -289,10 +289,10 @@ const Reportes = () => {
         </div>
       </Card>
 
-      {/* Generador de reportes */}
+      {}
       <Card title="Generar Reporte Personalizado" className="mb-8">
         <div className="space-y-6">
-          {/* Filtros */}
+          {}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -342,7 +342,7 @@ const Reportes = () => {
             </div>
           </div>
 
-          {/* Botones */}
+          {}
           <div className="flex gap-3">
             <Button
               icon={Filter}
@@ -364,7 +364,7 @@ const Reportes = () => {
         </div>
       </Card>
 
-      {/* Tabla de resultados */}
+      {}
       {reporteData.length > 0 && (
         <Card
           title={`Resultados del Reporte (${reporteData.length} registros)`}

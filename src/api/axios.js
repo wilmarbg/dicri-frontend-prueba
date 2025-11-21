@@ -48,10 +48,10 @@ api.interceptors.response.use(
                 toast.error(data.message || 'Ocurrió un error');
             }
         } else if (error.request) {
-            // La petición fue hecha pero no hubo respuesta
+           
             toast.error('No se pudo conectar con el servidor');
         } else {
-            // Algo pasó al configurar la petición
+            
             toast.error('Error al procesar la solicitud');
         }
         
